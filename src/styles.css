@@ -1,32 +1,35 @@
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .question {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .score {
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:last-child {
-    margin-right: 0;
-  }
-  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.score {
+  margin-bottom: 20px;
+}
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.question-container {
+  margin-bottom: 10px;
+}
+
+.question {
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.next-button {
+  display: block;
+  margin: 0 auto;
+}
