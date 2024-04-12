@@ -1,4 +1,4 @@
-// utils.ts
+
 export const calculateScore = (answers: string[]): number => {
     const yesCount: number = answers.filter((answer) => answer === 'Yes').length;
     return answers.length > 0 ? (yesCount / answers.length) * 100 : 0;

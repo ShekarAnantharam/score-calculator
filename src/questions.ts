@@ -1,4 +1,4 @@
-// export {}
+
 const questions : Record<number, string> = {
     1: "Can you code in Ruby?",
     2: "Can you code in JavaScript?",
