@@ -34,7 +34,7 @@ const App: React.FC = () => {
     newAnswers[index] = answer;
     setAnswers(newAnswers);
   };
-
+  
   const handleNextQuestion = () => {
     if (score !== null) {
       const newAllAnswers = [...allAnswers, answers];
